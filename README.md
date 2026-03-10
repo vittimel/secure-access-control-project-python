@@ -2,23 +2,46 @@
 
 ## Project Overview
 
-Secure Access Control is a Python application designed to determine whether a person can enter a public or shared space based on predefined rules.
-This project was developed to strengthen my skills about fundamental concepts in programming logic, conditional structures, data validation, and version control using Git and GitHub.
+This project implements a structured access control system in Python. The system aims to evaluate user data based on predefined conditions, manages multiple users, while applying fundamental programming concepts such as lists, dictionaries, loops, and error handling. 
 
-The system evaluates:
+## Programming Concepts Applied
 
-- Age requirements
-- Registration status
-- Health conditions (vaccinationor medical test)
+- Conditional statements (if / else)
+- Loops (while)
+- Lists
+- Dictionaries
+- Input validation
+- Error handling (try/except)
 
-It also stores multiple user and generates a final summary report.
+## Features
 
-## Technologies in that Project
+- User registration verification
+- Age validation
+- Health condition verification (vaccination)
+- Multiple users storage using lists
+- Structured data using dictionaries
+- Error handling using try/except
+- Final report of all registered users
+
+## Technologies Used in that Project:
 
 - Python 3
 - Git
 - GitHub
 
+## Example executation:
+
+Secure Access Control System
+Enter your name: Melissa
+Now, enter your age: 19
+Are you registered? (yes/no): no
+Are you vaccinated? (yes/no): yes
+You need to create an account to access.
+Do you want to add another user account? (yes/no): no
+
+Final Report:
+Name: Melissa | Age: 19 | Registered: no | Vaccinated: yes
+
 # Project's Status
 
-Project in development.
+Currently in development and being improved as part of my programming learning journey.
